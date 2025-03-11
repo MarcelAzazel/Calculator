@@ -1,9 +1,13 @@
+body{
+    background-color: rgb(35, 35, 35);
+}
+
 #calculator{
     border: 2px rgb(54, 54, 54) solid;
     border-radius: 10px;
     background-color: rgb(54, 54, 54);
     width: 300px;
-    height: 400px;
+    height: 342px;
     place-items: center;
     margin: auto;
     margin-top: 100px;
@@ -25,14 +29,14 @@
     border-radius: 10px;
     margin-top: 25px;
     width: 260px;
-    height: 260px;
+    height: 203px;
 }
 
 #numbers{
     border: 2px black solid;
     border-radius: 8px;
     width: 152px;
-    height: 256px;
+    height: 198px;
     float:left;
     display: inline;
 }
@@ -41,7 +45,33 @@
     border: 2px black solid;
     border-radius: 8px;
     width: 100px;
-    height: 256px;
+    height: 198px;
     float: right;
     display: inline;
+}
+
+.number{
+    background-color: rgb(203, 203, 203);
+    width: 48px;
+    height: 50px;
+    border-radius: 10px;
+}
+
+.operation{
+    background-color: rgb(203, 203, 203);
+    width: 48px;
+    height: 50px;
+    border-radius: 10px;
+}
+
+#b0{
+    text-align: center;
+}
+
+#C{
+    width: 100px;
+}
+
+#equal{
+    width: 100px;
 }
